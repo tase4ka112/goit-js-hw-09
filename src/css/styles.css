@@ -43,3 +43,69 @@ img {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  padding: 24px;
+  row-gap: 8px;
+}
+
+.email-lbl {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-inp {
+  width: 360px;
+  height: 40px;
+}
+
+.message-lbl {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.message-txt {
+  width: 360px;
+  height: 80px;
+
+}
+
+.feedback-form label {
+  font-family: Montserrat;
+  color: rgb(46, 47, 66);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.feedback-form input {
+  max-height: 80px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  margin-top: 8px;
+  padding-left: 16px;
+}
+
+.feedback-form button {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+  border: none;
+  background: rgb(78, 117, 255);
+  width: 86px;
+  height: 40px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background: rgb(108, 140, 255);
+}
